@@ -2,5 +2,5 @@
   "latest_version": "1.0.4",
   "release_date": "2024-10-14",
   "release_notes": "Initial factory release. Includes full feature set for v1.",
-  "firmware_url": "YOUR_RAW_BIN_FILE_URL_HERE"
+  "firmware_url": "https://github.com/DeejMixer/MixlarUpdate/raw/be002bfd1c57ccbf66560390d65d420d0c9e88a0/MAINbranch.ino.bin"
 }
