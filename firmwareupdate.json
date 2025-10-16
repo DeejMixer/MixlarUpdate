@@ -18,7 +18,7 @@
       {
         "type": "application",
         "address": "0x10000",
-        "url": "https://github.com/YourUsername/YourRepo/releases/download/v1.0.1/Software.bin"
+        "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/PCTEST.ino.bin"
       }
     ]
   }
