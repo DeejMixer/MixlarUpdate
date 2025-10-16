@@ -8,7 +8,7 @@
       {
         "type": "bootloader",
         "address": "0x0",
-        "url": "https://github.com/YourUsername/YourRepo/releases/download/v1.0.1/bootloader.bin"
+        "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/PCTEST.ino.bootloader.bin"
       },
       {
         "type": "partition_table",
