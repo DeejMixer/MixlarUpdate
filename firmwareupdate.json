@@ -1,1 +1,27 @@
+{
+  "projectName": "ESP32-S3-Super-Flasher",
+  "firmware": {
+    "version": "1.0.1",
+    "releaseDate": "2025-10-16T15:43:00Z",
+    "releaseNotes": "- Initial stable release.\n- Added support for new sensor readings.\n- Fixed bug in Wi-Fi reconnection logic.",
+    "files": [
+      {
+        "type": "bootloader",
+        "address": "0x0",
+        "url": "https://github.com/YourUsername/YourRepo/releases/download/v1.0.1/bootloader.bin"
+      },
+      {
+        "type": "partition_table",
+        "address": "0x8000",
+        "url": "https://github.com/YourUsername/YourRepo/releases/download/v1.0.1/partitions.bin"
+      },
+      {
+        "type": "application",
+        "address": "0x10000",
+        "url": "https://github.com/YourUsername/YourRepo/releases/download/v1.0.1/Software.bin"
+      }
+    ]
+  }
+}
+
 
