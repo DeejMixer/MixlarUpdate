@@ -1,27 +1,50 @@
 {
   "projectName": "ESP32-S3-Super-Flasher",
-  "firmware": {
-    "version": "1.2.0",
-    "releaseDate": "2025-10-16T15:43:00Z",
-    "releaseNotes": "Major Update\n- New Spotify Support.\n- Fixed Version Updater.",
-    "files": [
-      {
-        "type": "bootloader",
-        "address": "0x0",
-        "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/PCTEST.ino.bootloader.bin"
-      },
-      {
-        "type": "partition_table",
-        "address": "0x8000",
-        "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/PCTEST.ino.partitions.bin"
-      },
-      {
-        "type": "application",
-        "address": "0x10000",
-        "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/PCTEST.ino.bin"
-      }
-    ]
-  }
+  "latestVersion": "1.2.0",
+  "versions": [
+    {
+      "version": "1.2.0",
+      "releaseDate": "2025-10-16T15:43:00Z",
+      "releaseNotes": "Major Update\n- New Spotify Support.\n- Fixed Version Updater.",
+      "files": [
+        {
+          "type": "bootloader",
+          "address": "0x0",
+          "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/PCTEST.ino.bootloader.bin"
+        },
+        {
+          "type": "partition_table",
+          "address": "0x8000",
+          "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/PCTEST.ino.partitions.bin"
+        },
+        {
+          "type": "application",
+          "address": "0x10000",
+          "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/PCTEST.ino.bin"
+        }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "releaseDate": "2025-09-28T10:30:00Z",
+      "releaseNotes": "Previous Stable Version\n- USB MIDI support.\n- Improved audio quality.\n- Bug fixes.",
+      "files": [
+        {
+          "type": "bootloader",
+          "address": "0x0",
+          "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/old/v1.1.0-bootloader.bin"
+        },
+        {
+          "type": "partition_table",
+          "address": "0x8000",
+          "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/old/v1.1.0-partitions.bin"
+        },
+        {
+          "type": "application",
+          "address": "0x10000",
+          "url": "https://github.com/DeejMixer/MixlarUpdate/raw/refs/heads/main/old/v1.1.0-firmware.bin"
+        }
+      ]
+    }
+  ]
 }
-
-
